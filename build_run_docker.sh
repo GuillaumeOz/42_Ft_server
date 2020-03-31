@@ -12,4 +12,4 @@
 # **************************************************************************** #
 
 docker build -t ft_server .
-docker run -p 443:443 -p 80:80 -t ft_server
+docker run -it -p 80:80 -p 443:443 ft_server

@@ -71,11 +71,11 @@ The `wp-config.php` file contains your website’s base configuration details, s
 ## Steps to get a Docker project running
 
 ```shell
-# 1 - Build image 'ft_server'
-docker build -t ft_server .
+# 1 - If you are on 42 Mac, start to run 'init_docker.sh' inside install_script folder.
+bash init_docker.sh
 
-# 2 - Run image 'ft_server'
-docker run -it -p 80:80 -p 443:443 ft_server
+# 2 - Then Run 'build_run_docker.sh' in the main folder.
+sh build_run_docker.sh
 ```
 
 ### Useful cmd
