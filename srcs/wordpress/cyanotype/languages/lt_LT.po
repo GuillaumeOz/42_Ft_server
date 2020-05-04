@@ -1,0 +1,246 @@
+# Translation of WordPress.com - Themes - Cyanotype in Lithuanian
+# This file is distributed under the same license as the WordPress.com - Themes - Cyanotype package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 06:47:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: lt\n"
+"Project-Id-Version: WordPress.com - Themes - Cyanotype\n"
+
+#: inc/wpcom-colors.php:99
+msgid "Text"
+msgstr "Tekstas"
+
+#: inc/wpcom-colors.php:43
+msgid "Background"
+msgstr "Fono nustatymai"
+
+#: inc/template-tags.php:90
+msgid ", "
+msgstr ", "
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:90
+msgid "Tags"
+msgstr "Žymės"
+
+#: functions.php:319
+msgid "Menu &amp; Widgets"
+msgstr "Meniu &amp; valdikliai"
+
+#: single.php:31
+msgid "Previous post:"
+msgstr "Ankstesnis įrašas:"
+
+#: single.php:30
+msgid "Previous"
+msgstr "Ankstesnis"
+
+#: single.php:28
+msgid "Next post:"
+msgstr "Paskesnis įrašas:"
+
+#: single.php:27
+msgid "Next"
+msgstr "Kitas"
+
+#: functions.php:317 sidebar.php:15
+msgid "Menu"
+msgstr "Meniu"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Paieškos rezultatai skirti: %s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:192
+msgid "Continue reading %s"
+msgstr "Skaityti toliau: %s"
+
+#: inc/template-tags.php:127
+msgid "% Comments"
+msgstr "% Komentaras"
+
+#: inc/template-tags.php:127
+msgid "1 Comment"
+msgstr "Komentarų: 1"
+
+#: inc/template-tags.php:127
+msgid "Leave a comment"
+msgstr "Parašykite komentarą"
+
+#: inc/template-tags.php:118
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Visas dydis"
+
+#: inc/template-tags.php:107
+msgctxt "Used before project tag names."
+msgid "Project Tags"
+msgstr "Projektų žymos"
+
+#: inc/template-tags.php:99
+msgctxt "Used before project type names."
+msgid "Project Types"
+msgstr "Projektų tipai"
+
+#: inc/template-tags.php:84
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Kategorijos"
+
+#: inc/template-tags.php:81 inc/template-tags.php:96 inc/template-tags.php:104
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:65
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Paskelbta"
+
+#: inc/template-tags.php:47
+msgid "Featured"
+msgstr "Siūloma"
+
+#: inc/template-tags.php:28
+msgid "Newer Comments"
+msgstr "Naujesni komentarai"
+
+#: inc/template-tags.php:24
+msgid "Older Comments"
+msgstr "Senesni komentarai"
+
+#: inc/template-tags.php:21
+msgid "Comment navigation"
+msgstr "Komentaro naršymas"
+
+#: inc/customizer.php:24
+msgid "Tagline is hidden in this theme."
+msgstr "Šioje temoje trumpasis aprašymas yra paslėptas."
+
+#: image.php:83
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Paskelbta įraše:</span><span class=\"post-title\">%title</span>"
+
+#: image.php:23
+msgid "Next Image"
+msgstr "Kitas paveikslėlis"
+
+#: image.php:23
+msgid "Previous Image"
+msgstr "Ankstesnis paveikslėlis"
+
+#: functions.php:318
+msgid "Widgets"
+msgstr "Valdikliai"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Praleisti ir eiti į turinį"
+
+#: functions.php:313
+msgid "collapse child menu"
+msgstr "suskleisti sub-meniu"
+
+#: functions.php:312
+msgid "expand child menu"
+msgstr "išskleisti sub-meniu"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:257
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "įjungta"
+
+#: functions.php:227
+msgid "Widget Area"
+msgstr "Valdiklių Zona"
+
+#: functions.php:63
+msgid "Social Links Menu"
+msgstr "Socialinių nuorodų meniu"
+
+#: functions.php:62
+msgid "Primary Menu"
+msgstr "Pagrindinis meniu"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s sukūrė %2$s."
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "%s sistema"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-page.php:31 content-single.php:40 image.php:70
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: content-page.php:21 content-single.php:23 image.php:58
+msgid "Pages:"
+msgstr "Puslapiai:"
+
+#: content-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Atrodo mes negalime rasti to ko jūs ieškote. Gal paieška padės."
+
+#: content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Deja, nieko panašaus rasti nepavyko. Pabandykite įvesti kitokį paieškos raktažodį."
+
+#: content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pasirengę išleisti savo pirmą įrašą? <a href=\"%1$s\">Pradėkite čia</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Nieko nerasta"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Komentavimo galimybė išjungta."
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s mintis apie &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s mintys apie &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s minčių apie &ldquo;%2$s&rdquo;"
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "Peržiūrėti visus %s įrašus"
+
+#: archive.php:62 content-page.php:25 content-single.php:27 image.php:62
+#: index.php:60 search.php:44
+msgid "Page"
+msgstr "Puslapis"
+
+#: archive.php:61 index.php:59 search.php:43
+msgid "Next page"
+msgstr "Kitas puslapis"
+
+#: archive.php:60 index.php:58 search.php:42
+msgid "Previous page"
+msgstr "Ankstesnis puslapis"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Panašu, kad čia nieko nerasta. Pasinaudokite paieška."
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Deja, toks puslapis nerastas."

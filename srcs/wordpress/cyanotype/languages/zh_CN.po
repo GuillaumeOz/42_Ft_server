@@ -1,0 +1,252 @@
+# Translation of Cyanotype in Chinese (China)
+# This file is distributed under the same license as the Cyanotype package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-04-13 15:14:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/1.0-alpha-1000\n"
+"Project-Id-Version: Cyanotype\n"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/cyanotype/style.css
+msgid "Cyanotype is a monochromatic blog theme with a bold, yet simple look that sets your blog apart from the rest. Pick your favorite background color or image to lend your personal flair."
+msgstr ""
+
+#: single.php:31
+msgid "Previous post:"
+msgstr "上篇文章："
+
+#: single.php:30
+msgid "Previous"
+msgstr "上一个"
+
+#: single.php:28
+msgid "Next post:"
+msgstr "下篇文章："
+
+#: single.php:27
+msgid "Next"
+msgstr "下一步"
+
+#: sidebar.php:15
+msgid "Menu"
+msgstr "菜单"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "针对以下内容的搜索结果：%s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:195
+msgid "Continue reading %s"
+msgstr "继续阅读%s"
+
+#: inc/template-tags.php:130
+msgid "% Comments"
+msgstr "%条评论"
+
+#: inc/template-tags.php:130
+msgid "1 Comment"
+msgstr "1条评论"
+
+#: inc/template-tags.php:102
+msgctxt "Used before project type names."
+msgid "Project Types"
+msgstr ""
+
+#: inc/template-tags.php:110
+msgctxt "Used before project tag names."
+msgid "Project Tags"
+msgstr ""
+
+#: inc/template-tags.php:121
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "原始尺寸"
+
+#: inc/template-tags.php:130
+msgid "Leave a comment"
+msgstr "发表评论"
+
+#: inc/template-tags.php:84
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "分类"
+
+#: inc/template-tags.php:92
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "标签"
+
+#: inc/template-tags.php:65
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "发布于"
+
+#: inc/template-tags.php:81 inc/template-tags.php:89 inc/template-tags.php:99
+#: inc/template-tags.php:107
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr "、"
+
+#: inc/template-tags.php:47
+msgid "Featured"
+msgstr "推荐"
+
+#: inc/template-tags.php:28
+msgid "Newer Comments"
+msgstr "较新评论"
+
+#: inc/template-tags.php:24
+msgid "Older Comments"
+msgstr "早前评论"
+
+#: image.php:83
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">发布于</span><span class=\"post-title\">%title</span>"
+
+#: inc/back-compat.php:36 inc/back-compat.php:46 inc/back-compat.php:59
+msgid "Cyanotype requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr ""
+
+#: inc/customizer.php:24
+msgid "Tagline is hidden in this theme."
+msgstr ""
+
+#: inc/template-tags.php:21
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: image.php:23
+msgid "Next Image"
+msgstr "下一图片"
+
+#: image.php:23
+msgid "Previous Image"
+msgstr "上一图片"
+
+#: header.php:47
+msgid "Widgets"
+msgstr "小组件"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "跳转到内容"
+
+#: functions.php:312
+msgid "expand child menu"
+msgstr "展开子菜单"
+
+#: functions.php:313
+msgid "collapse child menu"
+msgstr "折叠子菜单"
+
+#: functions.php:229
+msgid "Add widgets here to appear in your off-screen panel."
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Karla, translate this to 'off'. Do not translate into your own language.
+#: functions.php:252
+msgctxt "Karla font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:257
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:227
+msgid "Widget Area"
+msgstr "挂件区域"
+
+#: functions.php:63
+msgid "Social Links Menu"
+msgstr "社交网络链接菜单"
+
+#: functions.php:62
+msgid "Primary Menu"
+msgstr "主要菜单"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "主题: %1$s 作者 %2$s."
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "由 %s 强力驱动"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-page.php:31 content-single.php:40 image.php:70
+msgid "Edit"
+msgstr "编辑"
+
+#: content-page.php:21 content-single.php:23 image.php:58
+msgid "Pages:"
+msgstr "页面："
+
+#: content-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "看来我们无法找到您想查找的内容。或许搜索可以帮助您。"
+
+#: content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "您的关键词返回的搜索结果为空，请换一组关键词重试。"
+
+#: content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "准备发布您的第一篇文章？<a href=\"%1$s\">在此处开始</a>。"
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "没有找到任何内容"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "评论功能被关闭。"
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "一个有关“%2$s”的想法"
+
+#: author-bio.php:11
+msgid "Published by:"
+msgstr ""
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "查看该作者所有主题 %s"
+
+#: archive.php:62 content-page.php:25 content-single.php:27 image.php:62
+#: index.php:60 search.php:44
+msgid "Page"
+msgstr "个页面"
+
+#: archive.php:61 index.php:59 search.php:43
+msgid "Next page"
+msgstr "下一页"
+
+#: archive.php:60 index.php:58 search.php:42
+msgid "Previous page"
+msgstr "上一页"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "这儿似乎什么都没有，试试搜索？"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "抱歉！无法找到该页面。"

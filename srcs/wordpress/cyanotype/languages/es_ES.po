@@ -1,0 +1,234 @@
+# Translation of WordPress.com - Themes - Cyanotype in Spanish (Spain)
+# This file is distributed under the same license as the WordPress.com - Themes - Cyanotype package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-05-14 07:36:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: WordPress.com - Themes - Cyanotype\n"
+
+#: inc/wpcom-colors.php:99
+msgid "Text"
+msgstr "Texto"
+
+#: inc/wpcom-colors.php:43
+msgid "Background"
+msgstr "Fondo"
+
+#: inc/template-tags.php:90
+msgid ", "
+msgstr ", "
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:90
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: single.php:31
+msgid "Previous post:"
+msgstr "Entrada anterior:"
+
+#: single.php:30
+msgid "Previous"
+msgstr "Anterior"
+
+#: single.php:28
+msgid "Next post:"
+msgstr "Entrada siguiente:"
+
+#: single.php:27
+msgid "Next"
+msgstr "Siguiente"
+
+#: functions.php:317 sidebar.php:15
+msgid "Menu"
+msgstr "Menu"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Resultados de la búsqueda para: %s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:192
+msgid "Continue reading %s"
+msgstr "Continúa leyendo %s"
+
+#: inc/template-tags.php:127
+msgid "% Comments"
+msgstr "% comentarios"
+
+#: inc/template-tags.php:127
+msgid "1 Comment"
+msgstr "1 comentario"
+
+#: inc/template-tags.php:127
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: inc/template-tags.php:118
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Tamaño completo"
+
+#: inc/template-tags.php:84
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Categorías"
+
+#: inc/template-tags.php:81 inc/template-tags.php:96 inc/template-tags.php:104
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ","
+
+#: inc/template-tags.php:65
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Publicado el"
+
+#: inc/template-tags.php:47
+msgid "Featured"
+msgstr "Destacado"
+
+#: inc/template-tags.php:28
+msgid "Newer Comments"
+msgstr "Comentarios más recientes"
+
+#: inc/template-tags.php:24
+msgid "Older Comments"
+msgstr "Comentarios anteriores"
+
+#: inc/template-tags.php:21
+msgid "Comment navigation"
+msgstr "Navegación de comentarios"
+
+#: image.php:83
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Publicado en</span><span class=\"post-title\">%title</span>"
+
+#: image.php:23
+msgid "Next Image"
+msgstr "Próxima imagen"
+
+#: image.php:23
+msgid "Previous Image"
+msgstr "Imagen anterior"
+
+#: functions.php:318
+msgid "Widgets"
+msgstr "Widgets"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Saltar al contenido."
+
+#: functions.php:313
+msgid "collapse child menu"
+msgstr "plegar menú inferior"
+
+#: functions.php:312
+msgid "expand child menu"
+msgstr "expande el menú inferior"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:257
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "activa"
+
+#. translators: If there are characters in your language that are not supported
+#. by Karla, translate this to 'off'. Do not translate into your own language.
+#: functions.php:252
+msgctxt "Karla font: on or off"
+msgid "on"
+msgstr "activar"
+
+#: functions.php:227
+msgid "Widget Area"
+msgstr "Área de widgets"
+
+#: functions.php:63
+msgid "Social Links Menu"
+msgstr "Menú de enlaces sociales"
+
+#: functions.php:62
+msgid "Primary Menu"
+msgstr "Menú Principal"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s por %2$s."
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "Funciona con %s"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-page.php:31 content-single.php:40 image.php:70
+msgid "Edit"
+msgstr "Editar"
+
+#: content-page.php:21 content-single.php:23 image.php:58
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: content-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no podemos encontrar lo que estás buscando. Tal vez la búsqueda le pueda ayudar."
+
+#: content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo sentimos, pero nada coincidió con su búsqueda. Por favor inténtelo de nuevo con otras palabras clave."
+
+#: content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un comentario en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "Ver todas las entradas de %s"
+
+#: archive.php:62 content-page.php:25 content-single.php:27 image.php:62
+#: index.php:60 search.php:44
+msgid "Page"
+msgstr "Página"
+
+#: archive.php:61 index.php:59 search.php:43
+msgid "Next page"
+msgstr "Página siguiente"
+
+#: archive.php:60 index.php:58 search.php:42
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Parece que no hay nada en este lugar. ¿Y si pruebas una búsqueda?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! Esa página no se puede encontrar."

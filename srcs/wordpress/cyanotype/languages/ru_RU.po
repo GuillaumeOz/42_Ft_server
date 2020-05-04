@@ -1,0 +1,235 @@
+# Translation of WordPress.com - Themes - Cyanotype in Russian
+# This file is distributed under the same license as the WordPress.com - Themes - Cyanotype package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 06:47:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: WordPress.com - Themes - Cyanotype\n"
+
+#: inc/wpcom-colors.php:99
+msgid "Text"
+msgstr "Текст"
+
+#: inc/wpcom-colors.php:43
+msgid "Background"
+msgstr "Фон"
+
+#: inc/template-tags.php:90
+msgid ", "
+msgstr ", "
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:90
+msgid "Tags"
+msgstr "Метки"
+
+#: single.php:31
+msgid "Previous post:"
+msgstr "Предыдущая запись:"
+
+#: single.php:30
+msgid "Previous"
+msgstr "Назад"
+
+#: single.php:28
+msgid "Next post:"
+msgstr "Следующая запись:"
+
+#: single.php:27
+msgid "Next"
+msgstr "Далее"
+
+#: functions.php:317 sidebar.php:15
+msgid "Menu"
+msgstr "Меню"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:192
+msgid "Continue reading %s"
+msgstr "Читать далее %s"
+
+#: inc/template-tags.php:127
+msgid "% Comments"
+msgstr "Комментарии (%)"
+
+#: inc/template-tags.php:127
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: inc/template-tags.php:127
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: inc/template-tags.php:118
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Полный размер"
+
+#: inc/template-tags.php:84
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Рубрики"
+
+#: inc/template-tags.php:81 inc/template-tags.php:96 inc/template-tags.php:104
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:65
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Опубликовано"
+
+#: inc/template-tags.php:47
+msgid "Featured"
+msgstr "Избранное"
+
+#: inc/template-tags.php:28
+msgid "Newer Comments"
+msgstr "Следующие комментарии"
+
+#: inc/template-tags.php:24
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+#: inc/template-tags.php:21
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+#: image.php:83
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Опубликовано в</span><span class=\"post-title\">%title</span>"
+
+#: image.php:23
+msgid "Next Image"
+msgstr "Следующее изображение"
+
+#: image.php:23
+msgid "Previous Image"
+msgstr "Предыдущее изображение"
+
+#: functions.php:318
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: functions.php:313
+msgid "collapse child menu"
+msgstr "свернуть дочернее меню"
+
+#: functions.php:312
+msgid "expand child menu"
+msgstr "раскрыть дочернее меню"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:257
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Karla, translate this to 'off'. Do not translate into your own language.
+#: functions.php:252
+msgctxt "Karla font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:227
+msgid "Widget Area"
+msgstr "Область виджетов"
+
+#: functions.php:63
+msgid "Social Links Menu"
+msgstr "Меню социальных ссылок"
+
+#: functions.php:62
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "Тема: %1$s, автор: %2$s."
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "Сайт работает на %s"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://ru.wordpress.org/"
+
+#: content-page.php:31 content-single.php:40 image.php:70
+msgid "Edit"
+msgstr "Изменить"
+
+#: content-page.php:21 content-single.php:23 image.php:58
+msgid "Pages:"
+msgstr "Страниц:"
+
+#: content-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по сайту."
+
+#: content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#: content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните отсюда</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%2$s: Один комментарий"
+msgstr[1] "%2$s: %1$s комментария"
+msgstr[2] "%2$s: %1$s комментариев"
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "Посмотреть все записи автора %s"
+
+#: archive.php:62 content-page.php:25 content-single.php:27 image.php:62
+#: index.php:60 search.php:44
+msgid "Page"
+msgstr "страница"
+
+#: archive.php:61 index.php:59 search.php:43
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: archive.php:60 index.php:58 search.php:42
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "По данному адресу ничего не найдено. Попробуйте воспользоваться поиском."
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ошибка. Страница не найдена."

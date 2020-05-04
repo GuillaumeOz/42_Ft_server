@@ -1,0 +1,268 @@
+# Translation of WordPress.com - Themes - Cyanotype in Persian
+# This file is distributed under the same license as the WordPress.com - Themes - Cyanotype package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 06:47:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fa\n"
+"Project-Id-Version: WordPress.com - Themes - Cyanotype\n"
+
+#: inc/wpcom-colors.php:99
+msgid "Text"
+msgstr "متن"
+
+#: inc/wpcom-colors.php:43
+msgid "Background"
+msgstr "پس‌زمینه"
+
+#: inc/template-tags.php:90
+msgid ", "
+msgstr "، "
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:90
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: functions.php:319
+msgid "Menu &amp; Widgets"
+msgstr "گزینگان و ابزارک‌ها"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/cyanotype/style.css
+msgid "Cyanotype is a monochromatic blog theme with a bold, yet simple look that sets your blog apart from the rest. Pick your favorite background color or image to lend your personal flair."
+msgstr "Cyanotype یک پوستهٔ وب‌نویسی تک‌فام با ظاهری جسور و در عین حال ساده است که به وب‌نوشت شما جلوه‌ای دیگر می‌بخشد. برای افزودن جلوه‌های شخصی خودتان می‌توانید رنگ یا تصویر پس‌زمینهٔ دلخواه خود را برگزینید."
+
+#: single.php:31
+msgid "Previous post:"
+msgstr "تصویر پیشین:"
+
+#: single.php:30
+msgid "Previous"
+msgstr "پیشین"
+
+#: single.php:28
+msgid "Next post:"
+msgstr "نوشتۀ پسین:"
+
+#: single.php:27
+msgid "Next"
+msgstr "بعدی"
+
+#: functions.php:317 sidebar.php:15
+msgid "Menu"
+msgstr "گزینگان"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "نتایج جست‌وجو برای: %s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:192
+msgid "Continue reading %s"
+msgstr "به خواندن %s ادامه دهید"
+
+#: inc/template-tags.php:127
+msgid "% Comments"
+msgstr "% دیدگاه"
+
+#: inc/template-tags.php:127
+msgid "1 Comment"
+msgstr "۱ دیدگاه"
+
+#: inc/template-tags.php:127
+msgid "Leave a comment"
+msgstr "بیان دیدگاه"
+
+#: inc/template-tags.php:118
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "اندازه کامل"
+
+#: inc/template-tags.php:107
+msgctxt "Used before project tag names."
+msgid "Project Tags"
+msgstr "برچسب‌های پروژه‌ها"
+
+#: inc/template-tags.php:99
+msgctxt "Used before project type names."
+msgid "Project Types"
+msgstr "انواع پروژه‌ها"
+
+#: inc/template-tags.php:84
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "دسته‌ها"
+
+#: inc/template-tags.php:81 inc/template-tags.php:96 inc/template-tags.php:104
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr "، "
+
+#: inc/template-tags.php:65
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "ارسال شده در"
+
+#: inc/template-tags.php:47
+msgid "Featured"
+msgstr "ویژه"
+
+#: inc/template-tags.php:28
+msgid "Newer Comments"
+msgstr "دیدگاه‌های تازه‌تر"
+
+#: inc/template-tags.php:24
+msgid "Older Comments"
+msgstr "دیدگاه‌های پیشین"
+
+#: inc/template-tags.php:21
+msgid "Comment navigation"
+msgstr "ناوبری دیدگاه"
+
+#: inc/customizer.php:24
+msgid "Tagline is hidden in this theme."
+msgstr "شعار در این پوسته پنهان است."
+
+#: inc/back-compat.php:36 inc/back-compat.php:46 inc/back-compat.php:59
+msgid "Cyanotype requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Cyanotype دست کم نیازمند WordPress نسخهٔ ۴٫۱ است. شما نسخهٔ %s را اجرا می‌کنید. لطفاً به‌روزرسانی و دوباره امتحان کنید."
+
+#: image.php:83
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">منتشره در</span><span class=\"post-title\">%title</span>"
+
+#: image.php:23
+msgid "Next Image"
+msgstr "تصویر پسین"
+
+#: image.php:23
+msgid "Previous Image"
+msgstr "تصویر پیشین"
+
+#: functions.php:318
+msgid "Widgets"
+msgstr "ابزارک‌ها"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "پرش به محتوا"
+
+#: functions.php:313
+msgid "collapse child menu"
+msgstr "بستن زیرفهرست"
+
+#: functions.php:312
+msgid "expand child menu"
+msgstr "بازکردن زیرفهرست"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:257
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "off"
+
+#. translators: If there are characters in your language that are not supported
+#. by Karla, translate this to 'off'. Do not translate into your own language.
+#: functions.php:252
+msgctxt "Karla font: on or off"
+msgid "on"
+msgstr "روشن"
+
+#: functions.php:229
+msgid "Add widgets here to appear in your off-screen panel."
+msgstr "برای نمایش‌یافتن ابزارک‌ها در میزکار پشت‌پرده، ابزارک‌ها را اینجا بیفزایید."
+
+#: functions.php:227
+msgid "Widget Area"
+msgstr "محدوده ابزارک"
+
+#: functions.php:63
+msgid "Social Links Menu"
+msgstr "گزینگان پیوندهای اجتماعی"
+
+#: functions.php:62
+msgid "Primary Menu"
+msgstr "گزینگان اصلی"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "پوسته: %1$s کاری از %2$s."
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "با افتخار، نیرو گرفته از %s"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-page.php:31 content-single.php:40 image.php:70
+msgid "Edit"
+msgstr "ویرایش"
+
+#: content-page.php:21 content-single.php:23 image.php:58
+msgid "Pages:"
+msgstr "صفحه‌ها:"
+
+#: content-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "به نظر می‌آید ما نمی‌توانیم آنچه به دنبالش هستید بیابیم. احتمالا جست‌وجو می‌تواند کمک کند."
+
+#: content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "بدبختانه جستجوی شما نتیجه‌ای در بر نداشت. با واژگانی دیگر جستجو کنید."
+
+#: content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "آمادهٔ انتشار نخستین نوشتهٔ خود هستید؟ <a href=\"%1$s\">از اینجا بیآغازید</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "چیزی پیدا نشد"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "دیدگاه‌ها بسته شده‌اند."
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s نظر برای &ldquo;%2$s&rdquo;"
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "مشاهدهٔ همهٔ نوشته‌ها بر اساس %s"
+
+#: author-bio.php:11
+msgid "Published by:"
+msgstr "منتشرشده به دست:"
+
+#: archive.php:62 content-page.php:25 content-single.php:27 image.php:62
+#: index.php:60 search.php:44
+msgid "Page"
+msgstr "صفحه"
+
+#: archive.php:61 index.php:59 search.php:43
+msgid "Next page"
+msgstr "صفحهٔ پسین"
+
+#: archive.php:60 index.php:58 search.php:42
+msgid "Previous page"
+msgstr "صفحهٔ پیشین"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "به نظر می‌رسد چیزی اینجا نیست. مایل هستید جستجو کنید؟"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "اوه! امکان یافتن صفحه نیست."

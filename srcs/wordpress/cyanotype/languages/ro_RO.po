@@ -1,0 +1,270 @@
+# Translation of WordPress.com - Themes - Cyanotype in Romanian
+# This file is distributed under the same license as the WordPress.com - Themes - Cyanotype package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 06:47:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ro\n"
+"Project-Id-Version: WordPress.com - Themes - Cyanotype\n"
+
+#: inc/wpcom-colors.php:99
+msgid "Text"
+msgstr "Text"
+
+#: inc/wpcom-colors.php:43
+msgid "Background"
+msgstr "Fundal"
+
+#: inc/template-tags.php:90
+msgid ", "
+msgstr ", "
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:90
+msgid "Tags"
+msgstr "Etichete"
+
+#: functions.php:319
+msgid "Menu &amp; Widgets"
+msgstr "Meniu și piese"
+
+#. Description of the plugin/theme
+#: wp-content/themes/pub/cyanotype/style.css
+msgid "Cyanotype is a monochromatic blog theme with a bold, yet simple look that sets your blog apart from the rest. Pick your favorite background color or image to lend your personal flair."
+msgstr "Cyanotype este o temă de blog monocromatică cu un aspect cutezător, dar simplu, care face ca blogul tău să fie diferit față de altele. Alege-ți culoarea de fundal favorită sau imaginea preferată pentru a-i da stilul personal."
+
+#: single.php:31
+msgid "Previous post:"
+msgstr "Articolul anterior:"
+
+#: single.php:30
+msgid "Previous"
+msgstr "Anterior"
+
+#: single.php:28
+msgid "Next post:"
+msgstr "Articolul următor:"
+
+#: single.php:27
+msgid "Next"
+msgstr "Următorul"
+
+#: functions.php:317 sidebar.php:15
+msgid "Menu"
+msgstr "Meniu"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Rezultatele căutării pentru: %s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:192
+msgid "Continue reading %s"
+msgstr "Continuă să citești %s"
+
+#: inc/template-tags.php:127
+msgid "% Comments"
+msgstr "% comentarii"
+
+#: inc/template-tags.php:127
+msgid "1 Comment"
+msgstr "1 comentariu"
+
+#: inc/template-tags.php:127
+msgid "Leave a comment"
+msgstr "Lasă un comentariu"
+
+#: inc/template-tags.php:118
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Mărime completă"
+
+#: inc/template-tags.php:107
+msgctxt "Used before project tag names."
+msgid "Project Tags"
+msgstr "Etichete proiect"
+
+#: inc/template-tags.php:99
+msgctxt "Used before project type names."
+msgid "Project Types"
+msgstr "Tipuri de proiect"
+
+#: inc/template-tags.php:84
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Categorii"
+
+#: inc/template-tags.php:81 inc/template-tags.php:96 inc/template-tags.php:104
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:65
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Publicat în"
+
+#: inc/template-tags.php:47
+msgid "Featured"
+msgstr "Reprezentative"
+
+#: inc/template-tags.php:28
+msgid "Newer Comments"
+msgstr "Comentarii mai noi"
+
+#: inc/template-tags.php:24
+msgid "Older Comments"
+msgstr "Comentarii mai vechi"
+
+#: inc/template-tags.php:21
+msgid "Comment navigation"
+msgstr "Navigare comentarii"
+
+#: inc/customizer.php:24
+msgid "Tagline is hidden in this theme."
+msgstr "Sloganul este ascuns în această temă."
+
+#: inc/back-compat.php:36 inc/back-compat.php:46 inc/back-compat.php:59
+msgid "Cyanotype requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr "Cyanotype necesită cel puțin WordPress versiunea 4.1. Folosești versiunea %s. Te rog actualizează și încearcă din nou."
+
+#: image.php:83
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">Publicat în</span><span class=\"post-title\">%title</span>"
+
+#: image.php:23
+msgid "Next Image"
+msgstr "Imaginea următoare"
+
+#: image.php:23
+msgid "Previous Image"
+msgstr "Imaginea precedentă"
+
+#: functions.php:318
+msgid "Widgets"
+msgstr "Widget-uri"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "Sări la conţinut"
+
+#: functions.php:313
+msgid "collapse child menu"
+msgstr "restrânge meniul copil"
+
+#: functions.php:312
+msgid "expand child menu"
+msgstr "extinde meniul copil"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:257
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Karla, translate this to 'off'. Do not translate into your own language.
+#: functions.php:252
+msgctxt "Karla font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:229
+msgid "Add widgets here to appear in your off-screen panel."
+msgstr "Adaugă piese aici ca să apară în panoul tău de pe ecran."
+
+#: functions.php:227
+msgid "Widget Area"
+msgstr "Zonă widget-uri"
+
+#: functions.php:63
+msgid "Social Links Menu"
+msgstr "Meniu legături sociale"
+
+#: functions.php:62
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s de %2$s."
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "Propulsat cu mândrie de %s"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: content-page.php:31 content-single.php:40 image.php:70
+msgid "Edit"
+msgstr "Editează"
+
+#: content-page.php:21 content-single.php:23 image.php:58
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: content-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Nu s-a putut găsi conținutul căutat. Probabil o căutare sau una dintre legăturile de mai jos pot ajuta."
+
+#: content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Ne pare rau, căutarea nu are nici un rezultat. Vă rugăm să încercați din nou cu unele cuvinte cheie diferite."
+
+#: content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pregătit să publici primul articol? <a href=\"%1$s\">Începe de aici</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "Nu a fost găsit nimic"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Comentariile sunt închise."
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Un gând despre &ldquo;%2$s&rdquo;"
+msgstr[1] " %1$s gânduri despre &ldquo;%2$s&rdquo;"
+msgstr[2] " %1$s de gânduri despre &ldquo;%2$s&rdquo;"
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "Vezi toate posturile scrise de %s"
+
+#: author-bio.php:11
+msgid "Published by:"
+msgstr "Publicat de:"
+
+#: archive.php:62 content-page.php:25 content-single.php:27 image.php:62
+#: index.php:60 search.php:44
+msgid "Page"
+msgstr "Pagină"
+
+#: archive.php:61 index.php:59 search.php:43
+msgid "Next page"
+msgstr "Pagina următoare"
+
+#: archive.php:60 index.php:58 search.php:42
+msgid "Previous page"
+msgstr "Pagina precedentă"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Se pare că nu a fost găsit nimic aici. Poate încerci o căutare?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hopa! Pagina nu a fost găsită."

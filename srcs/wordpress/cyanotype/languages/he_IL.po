@@ -1,0 +1,234 @@
+# Translation of WordPress.com - Themes - Cyanotype in Hebrew
+# This file is distributed under the same license as the WordPress.com - Themes - Cyanotype package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-23 06:47:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: he_IL\n"
+"Project-Id-Version: WordPress.com - Themes - Cyanotype\n"
+
+#: inc/wpcom-colors.php:99
+msgid "Text"
+msgstr "טקסט"
+
+#: inc/wpcom-colors.php:43
+msgid "Background"
+msgstr "רקע"
+
+#: inc/template-tags.php:90
+msgid ", "
+msgstr ", "
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:90
+msgid "Tags"
+msgstr "תגיות"
+
+#: single.php:31
+msgid "Previous post:"
+msgstr "הפוסט הקודם:"
+
+#: single.php:30
+msgid "Previous"
+msgstr "קודם"
+
+#: single.php:28
+msgid "Next post:"
+msgstr "הפוסט הבא:"
+
+#: single.php:27
+msgid "Next"
+msgstr "לשלב הבא"
+
+#: functions.php:317 sidebar.php:15
+msgid "Menu"
+msgstr "תפריט"
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "תוצאות החיפוש: %s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:192
+msgid "Continue reading %s"
+msgstr " להמשיך לקרוא את %s"
+
+#: inc/template-tags.php:127
+msgid "% Comments"
+msgstr "% תגובות"
+
+#: inc/template-tags.php:127
+msgid "1 Comment"
+msgstr "תגובה אחת"
+
+#: inc/template-tags.php:127
+msgid "Leave a comment"
+msgstr "כתיבת תגובה"
+
+#: inc/template-tags.php:118
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "מסך מלא"
+
+#: inc/template-tags.php:84
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "קטגוריות"
+
+#: inc/template-tags.php:81 inc/template-tags.php:96 inc/template-tags.php:104
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:65
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "פורסם בתאריך"
+
+#: inc/template-tags.php:47
+msgid "Featured"
+msgstr "‎פוסט נבחר"
+
+#: inc/template-tags.php:28
+msgid "Newer Comments"
+msgstr "תגובות חדשות"
+
+#: inc/template-tags.php:24
+msgid "Older Comments"
+msgstr "תגובות קודמות"
+
+#: inc/template-tags.php:21
+msgid "Comment navigation"
+msgstr "ניווט בתגובות"
+
+#: image.php:83
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=\"meta-nav\">פורסם ב</span><span class=\"post-title\">%title</span>"
+
+#: image.php:23
+msgid "Next Image"
+msgstr "הבא"
+
+#: image.php:23
+msgid "Previous Image"
+msgstr "התמונה הקודמת"
+
+#: functions.php:318
+msgid "Widgets"
+msgstr "וידג'טים"
+
+#: header.php:22
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
+
+#: functions.php:313
+msgid "collapse child menu"
+msgstr "הסתר תפריט"
+
+#: functions.php:312
+msgid "expand child menu"
+msgstr "הצג תפריט"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:257
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "off"
+
+#. translators: If there are characters in your language that are not supported
+#. by Karla, translate this to 'off'. Do not translate into your own language.
+#: functions.php:252
+msgctxt "Karla font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:227
+msgid "Widget Area"
+msgstr "אזור וידג'טים"
+
+#: functions.php:63
+msgid "Social Links Menu"
+msgstr "תפריט קישורים חברתיים"
+
+#: functions.php:62
+msgid "Primary Menu"
+msgstr "תפריט ראשי"
+
+#: footer.php:19
+msgid "Theme: %1$s by %2$s."
+msgstr "ערכת עיצוב: %1$s של %2$s"
+
+#: footer.php:17
+msgid "Proudly powered by %s"
+msgstr "פועל על %s"
+
+#: footer.php:17
+msgid "http://wordpress.org/"
+msgstr "http://he.wordpress.org/"
+
+#: content-page.php:31 content-single.php:40 image.php:70
+msgid "Edit"
+msgstr "עריכה"
+
+#: content-page.php:21 content-single.php:23 image.php:58
+msgid "Pages:"
+msgstr ":עמודים"
+
+#: content-none.php:30
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "נראה כי לא ניתן למצוא את מה שחיפשת, אולי חיפוש יעזור."
+
+#: content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "מצוערים, אבל לא נמצאה התאמה. אפשר לנסות שוב עם מילות חיפוש שונות."
+
+#: content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "מוכן לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">התחל כאן</a>."
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr "לא מצאתי כלום"
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "סגור לתגובות."
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "מחשבה אחת על &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
+
+#: author-bio.php:34
+msgid "View all posts by %s"
+msgstr "הצגת הפוסטים של %s"
+
+#: archive.php:62 content-page.php:25 content-single.php:27 image.php:62
+#: index.php:60 search.php:44
+msgid "Page"
+msgstr "עמוד"
+
+#: archive.php:61 index.php:59 search.php:43
+msgid "Next page"
+msgstr "העמוד הבא"
+
+#: archive.php:60 index.php:58 search.php:42
+msgid "Previous page"
+msgstr "העמוד הקודם"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "נראה שלא נמצא כלום במיקום הזה. אולי תנסו לחפש?"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "אופס. העמוד שביקשת אינו קיים."
