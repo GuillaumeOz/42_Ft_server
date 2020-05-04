@@ -3,83 +3,74 @@
 #                                                         :::      ::::::::    #
 #    Dockerfile                                         :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gozsertt <gozsertt@student.42.fr>          +#+  +:+       +#+         #
+#    By: user42 <user42@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/03/31 12:18:06 by gozsertt          #+#    #+#              #
-#    Updated: 2020/03/31 15:06:07 by gozsertt         ###   ########.fr        #
+#    Updated: 2020/05/04 14:54:47 by user42           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-FROM debian:buster-slim
+FROM debian:buster
 
-LABEL maintainer="Guillaume Ozserttas (gozsertt)"
+LABEL maintainer="Guillaume Ozserttas gozsertt@student.42.us.org"
 
-# Initialize variables
-ARG DATABASE_MS=mariadb-server
-ARG VER_PHP_MYADMIN=4.9.2
-ARG AUTOINDEX=on
+# Install necessary packages
+RUN apt-get update && apt-get install -y \
+    vim-gtk exuberant-ctags \
+    wget \
+    curl \
+    nginx \
+    php-fpm php-mysql \
+    mariadb-server \
+    php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlrpc php-zip \
+ && rm -rf /var/lib/apt/lists/*
 
-# Update and upgrade apt, also installs wget tool, which downloads from a URL
-RUN	apt-get update				&& \
-	apt-get upgrade				&& \
-	apt-get -y install wget procps net-tools
+# Set up NGINX
+RUN mkdir -p /var/www/localhost/html/ \
+ && chown -R www-data:www-data /var/www/localhost
+COPY srcs/localhost /etc/nginx/sites-available/localhost
+RUN ln -s /etc/nginx/sites-available/localhost /etc/nginx/sites-enabled/
+COPY srcs/index.html /var/www/localhost/html/
+COPY srcs/favicon.ico /var/www/localhost/
 
-# Install nginx. -y automatically answers yes to all prompts.
-RUN apt-get install -y nginx
+# Generate a self-signed certificate and private key using OpenSSL
+RUN cd /etc/ssl/certs/ \
+ && openssl req -x509 -days 90 \
+    -out localhost.crt \
+    -keyout localhost.key \
+    -newkey rsa:2048 -nodes -sha256 \
+    -subj '/CN=localhost' \
+ && chmod 600 /etc/ssl/certs/localhost.key \
+ && chmod 600 /etc/ssl/certs/localhost.crt
 
-# Install mariadb / mysql
-RUN apt-get -y install ${DATABASE_MS}
+# Get and set up phpMyAdmin
+RUN cd /tmp/ && wget https://files.phpmyadmin.net/phpMyAdmin/4.9.2/phpMyAdmin-4.9.2-all-languages.tar.gz \
+ && mkdir /var/www/localhost/phpmyadmin \
+ && tar -C /var/www/localhost/phpmyadmin -xvf phpMyAdmin-4.9.2-all-languages.tar.gz --strip 1 \
+ && chown -R www-data:www-data /var/www/localhost/phpmyadmin
+COPY srcs/config.inc.php /var/www/localhost/phpmyadmin
 
-# Install PHP
-RUN apt-get install -y php php-fpm php-mysqli php-pear php-mbstring php-gettext php-common php-phpseclib php-mysql
+# Init database
+COPY srcs/init_db.sh /scripts/
+COPY srcs/wordpress/wordpress_db.sql /root/
+RUN bash scripts/init_db.sh
 
-# Install PHPmyAdmin: Download from link, decompress and move to the right place
-RUN cd /tmp																												&& \
-	wget https://files.phpmyadmin.net/phpMyAdmin/${VER_PHP_MYADMIN}/phpMyAdmin-${VER_PHP_MYADMIN}-all-languages.tar.gz	&& \
-	tar xvf phpMyAdmin-${VER_PHP_MYADMIN}-all-languages.tar.gz															&& \
-	rm phpMyAdmin-${VER_PHP_MYADMIN}-all-languages.tar.gz																&& \
-	mv phpMyAdmin* /usr/share/phpmyadmin																				&& \
-	mkdir -p /var/lib/phpmyadmin/tmp																					&& \
-	ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin																&& \
-	service mysql start																									&& \
-	mysql < /usr/share/phpmyadmin/sql/create_tables.sql
+# Get and setup WordPress
+RUN cd /tmp/ && wget https://wordpress.org/latest.tar.gz \
+ && tar -C /var/www/localhost/ -xvf latest.tar.gz \
+ && chown -R www-data:www-data /var/www/localhost/wordpress
+COPY srcs/wordpress/wp-config.php /var/www/localhost/wordpress
+# WordPress styling
+COPY srcs/wordpress/cyanotype /var/www/localhost/wordpress/wp-content/themes/cyanotype
+COPY srcs/favicon.ico /var/www/localhost/wordpress/wp-content/uploads/2020/05/
+COPY srcs/wordpress/42wallpaper.jpg /var/www/localhost/wordpress/wp-content/uploads/2020/05/
 
-# Install Wordpress: Download from link, decompress and move to the right place
-RUN	cd /tmp										&& \
-	wget https://wordpress.org/latest.tar.gz	&& \
-	tar -xzvf latest.tar.gz						&& \
-	mv wordpress /var/www/html/wordpress		&& \
-	rm latest.tar.gz
-
-# Configure nginx: copy the configuration file and enables autoindex. Enabling site in the sites-enabled folder.
-COPY srcs/localhost.conf /etc/nginx/sites-available/localhost
-RUN sed -i "s/autoindex off/autoindex ${AUTOINDEX}/" /etc/nginx/sites-available/localhost
-RUN ln -s /etc/nginx/sites-available/localhost /etc/nginx/sites-enabled/localhost
-
-# Configure phpmyadmin: copy the configuration file
-COPY srcs/phpmyadmin-config.php /usr/share/phpmyadmin/config.inc.php
-RUN  mkdir /usr/share/phpmyadmin/tmp && chmod 777 /usr/share/phpmyadmin/tmp
-
-# Configure wordpress
-COPY srcs/wp-config.php /var/www/html/wordpress
-COPY srcs/wordpress_db.sql /tmp
-
-# Wordpress auth handle (unsafe since )
-RUN service mysql start																								&& \
-	mysql -u root -e "CREATE DATABASE wordpress_db" 																&& \
-	mysql -u root -e "GRANT ALL ON wordpress_db.* TO 'wordpress_user'@'localhost' IDENTIFIED BY 'qwerty' WITH GRANT OPTION"	&& \
-	mysql -u root -e "GRANT ALL ON phpmyadmin.* TO 'pma'@'localhost' IDENTIFIED BY 'qwerty'"						&& \
-	mysql -u root -e "GRANT ALL ON *.* TO 'guillaume'@'localhost' IDENTIFIED BY 'qwerty'"							&& \
-	mysql wordpress_db < /tmp/wordpress_db.sql
-
-# SSL, we copy our certificate and key into the ssl folders
-COPY srcs/nginx-cert.key /etc/ssl/private/nginx-cert.key
-COPY srcs/nginx-cert.crt /etc/ssl/certs/nginx-cert.crt
-
-# Final Commands to get service running + last task to get stuck in a loop so the server keeps running until we exit the terminal
-CMD service nginx start					&& \
-	service mysql start 				&& \
-	service php7.3-fpm start			&& \
-	tail -f /dev/null
-
+# Informs which ports are intended to be published
 EXPOSE 80 443
+
+# Copy script to enable or disable autoindex
+COPY srcs/switch_autoindex.sh /scripts/
+
+# Start services
+COPY srcs/entrypoint.sh /scripts/
+ENTRYPOINT ["bash", "/scripts/entrypoint.sh"]
